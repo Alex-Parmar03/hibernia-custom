@@ -2,6 +2,7 @@
     color: var(--color-primary-5);
     border-bottom: 2px solid white;
     width: max-content;
+    transition: .5s ease-in-out;
 }
 .nav-link:hover{
     color: var(--color-primary-4);

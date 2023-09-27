@@ -1,14 +1,14 @@
 .banner{
     position: relative;
 }
-.banner-image{
-    background: linear-gradient(to right, rgba(0 ,0 ,0 ,0.7), rgba(0 ,0 ,0 ,0)), url(.banner);
+.banner__image{
+    background: linear-gradient(to right, rgba(0 ,0 ,0 ,0.7), rgba(0 ,0 ,0 ,0)), url(../image/banner.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh;
     width: 100%;
 }
-.banner-content-wraper{
+.banner__content-wraper{
     position: absolute;
     top: 50%;
 }

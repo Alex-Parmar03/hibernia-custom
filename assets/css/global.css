@@ -25,6 +25,11 @@
     padding: 60px 0px;
 }
 
+/* overide */
+.container{
+    max-width: 1200px;
+}
+
 /* classes for content */
 img{
     width: 100%;
@@ -33,15 +38,15 @@ img{
     color: var(--color-primary-4);
     background: var(--color-primary-3);
 }
-.primary-cta-1{
+.primary-cta{
     color: var(--color-primary-1);
     border: solid 2px var(--color-primary-1);
 }
-.primary-cta-2{
+.secondary-cta-2{
     color: var(--color-primary-4);
     border: solid 2px var(--color-primary-3);
 }
-.primary-cta-3{
+.link-cta{
     color: var(--color-primary-4);
 }
 main a::after{
