@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Champion-Regular";
+    src: url(../fonts/HiberniaFonts_Build/Champion-HTF-Lightweight-Regular.ttf);
+    font-display: block;
+}
+@font-face {
+    font-family: "gotham-medium";
+    src: url(../fonts/HiberniaFonts_Build/Build/gotham-font-family/TTF/Gotham-Medium.ttf);
+    font-display: block;
+}
+@font-face {
+    font-family: "gotham-book";
+    src: url(../fonts/HiberniaFonts_Build/Build/gotham-font-family/TTF/Gotham-Book.ttf);
+    font-display: block;
+}

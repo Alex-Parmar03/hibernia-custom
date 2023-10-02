@@ -1,0 +1,9 @@
+.text-image-title{
+    color: var(--color-primary-5);
+}
+.text-image-lable{
+    margin-bottom: 24px;
+}
+.text-image-cta{
+    margin-top: 58px;
+}

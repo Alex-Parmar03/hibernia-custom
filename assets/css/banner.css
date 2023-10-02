@@ -8,7 +8,12 @@
     height: 80vh;
     width: 100%;
 }
-.banner__content-wraper{
+.banner__content-wrapper{
     position: absolute;
     top: 50%;
+}
+.banner__title h1{
+    font-family: var(--champion-regular);
+    font-weight: 500;
+    line-height: 84px;
 }

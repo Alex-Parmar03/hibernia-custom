@@ -1,0 +1,14 @@
+.card-content-wrapper{
+    padding: 20px 30px;
+}
+.card-title{
+    margin-bottom: 40px;
+}
+.content-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}

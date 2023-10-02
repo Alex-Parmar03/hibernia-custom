@@ -3,7 +3,15 @@
     --color-primary-2: #EEF0F2; 
     --color-primary-3: #00A0E4;
     --color-primary-4: #003F72;
-    --color-primary-5: #37424A;    
+    --color-primary-5: #37424A;  
+    --color-primary-6: rgb(224 240 242);
+
+
+    --champion-regular: 'Champion-Regular';
+    --gotham-bold: 'Gotham-Bold';
+    --gotham-medium: 'Gotham-Medium';
+    --gotham-book: 'Gotham-Book';
+    --gotham-booklta: 'Gotham-Booklta'; 
 }
 /* Colors + Backgorund */
 .primary-1 { color: var(--color-primary-1); }
@@ -17,42 +25,130 @@
 .bg-primary-3 { background-color: var(--color-primary-3); }
 .bg-primary-4 { background-color: var(--color-primary-4); }
 .bg-primary-5 { background-color: var(--color-primary-5); }
+/* Colors + Backgorund */
+
+/*=== FONT STYLES ===*/
+.champion{font-family: var(--champion-regular) !important;}
+.gotham-bold{font-family:var(--gotham-bold) !important;}
+.gotham-medium{font-family:var(--gotham-medium) !important;}
+.gotham-book{font-family:var(--gotham-book) !important;}
+.gotham-booklita{font-family:var(--gotham-booklta) !important;}
+/*=== FONT STYLES ===*/
 
 *{
     box-sizing: border-box;
 }
 .ptb{
-    padding: 60px 0px;
+    padding: 100px 0px;
+}
+.inner-ptb{
+    padding: 80px 0px;
 }
 
 /* overide */
 .container{
     max-width: 1200px;
 }
+nav a::after{
+    display: none;
+}
+html{
+    font-size: 10px;
+}
 
 /* classes for content */
 img{
     width: 100%;
 }
+.intro-text p{
+    font-weight: 325;
+    line-height: 32px;
+    font-size: 2rem;
+    font-family: var(--gotham-book);
+}
 .label{
     color: var(--color-primary-4);
-    background: var(--color-primary-3);
+    background: var(--color-primary-6);
+    font-family: var(--gotham-book);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 14.4px;
+    padding: 2px 8px;
+    margin-bottom: 24px;
 }
+.text-xenter{
+    text-align: center;
+}
+
+/* CTA classes */
 .primary-cta{
     color: var(--color-primary-1);
     border: solid 2px var(--color-primary-1);
 }
-.secondary-cta-2{
+.cta{
+    margin-top: 36px;
+}
+.secondary-cta{
     color: var(--color-primary-4);
     border: solid 2px var(--color-primary-3);
+    text-decoration: none;
+    padding: 22px 30px;
+    transition: 0.5s all ease-in-out;
+    font-size: 1.5rem;
+    font-weight: 350;
+    line-height: 18px;
+    font-family: var(--gotham-bold);
+    display: inline-block;
+}
+.secondary-cta:hover{
+    background: var(--color-primary-4);
+    color: var(--color-primary-1);
+    border: solid 2px var(--color-primary-4);
 }
 .link-cta{
+    font-family: var(--gotham-book);
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 18px;
     color: var(--color-primary-4);
+    text-decoration: none;
 }
-main a::after{
+a::after{
     content: '\27F6';
-    font-size: 5px;
+    padding-left: 10px;
+    transition: 0.5s;
 }
+a:hover::after{
+    padding-left: 15px;
+}
+
+/* tags css*/
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 16px;
+} 
 h1{
     color: var(--color-primary-1);
+    font-size: 7.2rem;
+    font-weight: 500;
+    line-height: 84px;
+    font-family: var(--champion-regular);
+}
+h2{
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 64px;
+    font-family: var(--champion-regular);
+}
+h5{
+    font-family: var(--gotham-book);
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 34px;
+    color: var(--color-primary-4);
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 325;
+    line-height: 26px;
+    font-family: var(--gotham-book);
 }
