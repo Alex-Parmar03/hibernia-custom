@@ -12,3 +12,10 @@
     align-items: center;
     padding-bottom: 60px;
 }
+
+/* responsive */
+@media (max-width:556px){
+    .cards{
+        margin-bottom: 35px;
+    }
+}
